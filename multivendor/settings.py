@@ -42,7 +42,7 @@ EMAIL_HOST_USER = 'apikey'
 EMAIL_HOST_PASSWORD = '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'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-DEFAULT_EMAIL_FROM = 'Interiorstore <noreply@codewithstein.com>'
+DEFAULT_EMAIL_FROM = 'Sifat <ahsifat321@gmail.com>'
 
 # Application definition
 
@@ -70,7 +70,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'interiorshop.urls'
+ROOT_URLCONF = 'multivendor.urls'
 
 TEMPLATES = [
     {
@@ -90,7 +90,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'interiorshop.wsgi.application'
+WSGI_APPLICATION = 'multivendor.wsgi.application'
 
 
 # Database
